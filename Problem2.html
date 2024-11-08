@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -8,32 +9,24 @@
         <script src = "js/bootstrap.js"></script>
     </head>
     <body>
-        <form>
-            <div class="form-row align-items-center">
-              <div class="col-sm-3 my-1">
-                <label class="sr-only" for="inlineFormInputName">Name</label>
-                <input type="text" class="form-control" id="inlineFormInputName" placeholder="Jane Doe">
-              </div>
-              <div class="col-sm-3 my-1">
-                <label class="sr-only" for="inlineFormInputGroupUsername">Username</label>
-                <div class="input-group">
-                  <div class="input-group-prepend">
-                    <div class="input-group-text">@</div>
-                  </div>
-                  <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
+<div class="container text-center">
+    <div class="row justify-content-center">
+        <div class="col col-md-8 col-lg-3 bg-danger m-0">
+            <form>
+                <div class="form-group mb-3 col-12 text-info">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <small id="emailHelp" class="form-text text-muted">
+                        We'll never share your email with anyone else.</small>
                 </div>
-              </div>
-              <div class="col-auto my-1">
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="autoSizingCheck2">
-                  <label class="form-check-label" for="autoSizingCheck2">
-                    Remember me
-                  </label>
+                <div class="form-group mb-3 col-12 text-info">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
                 </div>
-              </div>
-              <div class="col-auto my-1">
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </div>
-            </div>
-          </form>
-    </body>
+                <button type="submit" class="btn btn-info mb-3">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
